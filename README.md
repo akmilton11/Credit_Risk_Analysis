@@ -25,7 +25,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 ![](https://github.com/akmilton11/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.PNG)
 
 ### Summary: 
-When originally looking at the data set we can see according to balance of our target values - that there is a big discepancy between the number of low risk and high risk loans. So we can see that the data is already imbalanced, but that is why we split took a few different approaches above to see what would be the most advantagous. When looking primarily at the balanced accuracy score the Easy Ensemble AdaBoost Classifier records the highest score of .912. This model also records the highest f1 score on an average/total. The F1 score is that a pronounced imbalance between sensitivity and precision will yield a low F1 score.
+When originally looking at the data set we can see according to balance of our target values - that there is a big discrepancy  between the number of low risk and high risk loans. So we can see that the data is already imbalanced, but that is why we split took a few different approaches above to see what would be the most advantageous. When looking primarily at the balanced accuracy score the Easy Ensemble AdaBoost Classifier records the highest score of .912. This model also records the highest f1 score on an average/total. The F1 score is that a pronounced imbalance between sensitivity and precision will yield a low F1 score. Just by looking at these two metrics, I would recommend the Easy Ensemble AdaBoost Classifier model.
 
 
 
